@@ -48,86 +48,39 @@
         }
 
         h3 {
-            color: #444;
+            color: #667eea;
             margin-top: 20px;
             margin-bottom: 10px;
-            font-size: 1.15em;
+            font-size: 1.2em;
         }
 
         p, li {
             margin-bottom: 15px;
         }
 
-        ul {
+        ul, ol {
             margin-left: 20px;
         }
 
-        .feature-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 20px;
-            margin: 20px 0;
-        }
-
-        .feature-item {
-            background: #f5f5f7;
+        .highlight {
+            background: #eef1ff;
             padding: 20px;
-            border-radius: 10px;
-            text-align: center;
-        }
-
-        .feature-item .icon {
-            font-size: 2em;
-            margin-bottom: 10px;
-        }
-
-        .feature-item h3 {
-            color: #667eea;
-            margin-top: 0;
-            margin-bottom: 8px;
-        }
-
-        .feature-item p {
-            color: #666;
-            font-size: 0.95em;
-            margin-bottom: 0;
+            border-left: 4px solid #667eea;
+            margin: 20px 0;
+            border-radius: 4px;
         }
 
         .faq-item {
-            border-bottom: 1px solid #eee;
-            padding: 20px 0;
+            margin-bottom: 25px;
+            padding: 15px;
+            background: #f9f9f9;
+            border-radius: 8px;
         }
 
-        .faq-item:last-child {
-            border-bottom: none;
-        }
-
-        .faq-item h3 {
-            color: #667eea;
-            margin-top: 0;
-        }
-
-        .pricing-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
-
-        .pricing-table th,
-        .pricing-table td {
-            padding: 12px 16px;
-            text-align: left;
-            border-bottom: 1px solid #eee;
-        }
-
-        .pricing-table th {
-            background: #667eea;
-            color: white;
+        .faq-question {
             font-weight: 600;
-        }
-
-        .pricing-table tr:last-child td {
-            border-bottom: none;
+            color: #667eea;
+            margin-bottom: 10px;
         }
 
         .contact {
@@ -137,19 +90,8 @@
             margin-top: 30px;
         }
 
-        .links-section {
-            margin-top: 30px;
-            padding-top: 20px;
-            border-top: 1px solid #eee;
-        }
-
-        a {
+        strong {
             color: #667eea;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
         }
 
         @media (max-width: 768px) {
@@ -160,169 +102,90 @@
             h1 {
                 font-size: 2em;
             }
-
-            .feature-grid {
-                grid-template-columns: 1fr;
-            }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Manna - Technical Support</h1>
-        <p class="subtitle">A beautiful offline Bible verse widget for your home screen. Quiet verses, quiet price.</p>
+        <h1>Technical Support</h1>
+        <p class="subtitle">Help for Manna, the local-first daily verse and iOS widget experience.</p>
 
-        <h2>About Manna</h2>
-        <p>Manna is a Bible verse widget app designed with privacy and simplicity at its core. It displays beautiful Bible verses directly on your home screen — no need to open any app. 100% offline, no tracking, no subscriptions.</p>
-
-        <h2>Key Features</h2>
-        <div class="feature-grid">
-            <div class="feature-item">
-                <div class="icon">📖</div>
-                <h3>Bible Verse Widget</h3>
-                <p>Display verses on your home screen in 3 widget sizes. See God's word every time you unlock your phone.</p>
-            </div>
-            <div class="feature-item">
-                <div class="icon">🎨</div>
-                <h3>30+ Beautiful Themes</h3>
-                <p>6 free themes + 24 premium themes. Customize fonts, styles, and backgrounds to match your taste.</p>
-            </div>
-            <div class="feature-item">
-                <div class="icon">📴</div>
-                <h3>100% Offline</h3>
-                <p>All content stored locally on your device. Works perfectly without internet connection.</p>
-            </div>
-            <div class="feature-item">
-                <div class="icon">🔒</div>
-                <h3>Privacy First</h3>
-                <p>No accounts, no tracking, no data collection. Your data stays on your device.</p>
-            </div>
-            <div class="feature-item">
-                <div class="icon">🖼️</div>
-                <h3>Share as Image</h3>
-                <p>Create and share beautiful Bible verse images with friends and family.</p>
-            </div>
-            <div class="feature-item">
-                <div class="icon">💰</div>
-                <h3>One-Time Purchase</h3>
-                <p>$4.99 once to unlock all premium themes. No subscriptions, no hidden fees.</p>
-            </div>
+        <div class="highlight">
+            <p><strong>Quick note:</strong> Manna's core content is available offline, while purchases and premium restore depend on Apple and RevenueCat services. Widget content and settings are shared locally between the app and widget extension.</p>
         </div>
 
-        <h2>Pricing</h2>
-        <table class="pricing-table">
-            <thead>
-                <tr>
-                    <th>Plan</th>
-                    <th>Price</th>
-                    <th>Includes</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><strong>Free</strong></td>
-                    <td>$0 forever</td>
-                    <td>6 basic themes + all core features (widget, sharing, offline)</td>
-                </tr>
-                <tr>
-                    <td><strong>Premium</strong></td>
-                    <td>$4.99 one-time</td>
-                    <td>All 30+ themes + custom fonts + custom backgrounds</td>
-                </tr>
-            </tbody>
-        </table>
-        <p>No subscriptions. No free trial traps. No auto-renewals. The free version is fully functional — not a crippled demo.</p>
+        <h2>Getting Started</h2>
+        <ol>
+            <li>Open Manna and complete onboarding.</li>
+            <li>Choose your preferred verse language, style, and theme.</li>
+            <li>Add the Manna widget from the iOS home screen widget gallery.</li>
+            <li>Optionally enable reminders, favorites, reading plans, or premium themes.</li>
+        </ol>
 
-        <h2>Frequently Asked Questions</h2>
+        <h2>Common Topics</h2>
 
         <div class="faq-item">
-            <h3>How do I add the Manna widget to my home screen?</h3>
-            <p>On iPhone: Long press on your home screen → tap the "+" button in the top-left corner → search for "Manna" → choose your preferred widget size (small, medium, or large) → tap "Add Widget" → position it where you like.</p>
+            <div class="faq-question">How do I add the widget?</div>
+            <p>On your iPhone home screen, long-press an empty area, tap the add button, search for Manna, and choose the widget size you want. The widget reads its styling and verse data from the app's local shared storage.</p>
         </div>
 
         <div class="faq-item">
-            <h3>How do I restore my purchase on a new device?</h3>
-            <p>Open the Manna app → go to Settings → tap "Restore Purchases". Make sure you are signed in with the same Apple ID you used for the original purchase. Your premium features will be restored automatically.</p>
+            <div class="faq-question">Why is my widget not updating?</div>
+            <p>Open Manna to refresh local widget data, make sure the selected theme and verse are saved, and confirm the widget is still active on your home screen. Restarting the device can also help if iOS has paused widget refresh.</p>
         </div>
 
         <div class="faq-item">
-            <h3>Does Manna require an internet connection?</h3>
-            <p>No. Manna is designed as an offline-first app. All Bible content is stored locally on your device. You can use all features — widgets, themes, and image sharing — without any internet connection.</p>
+            <div class="faq-question">How do reminders work?</div>
+            <p>Manna uses local notifications on your device. If reminders are not showing, confirm that notification permission is enabled for Manna in iOS Settings and that you selected a reminder time in the app.</p>
         </div>
 
         <div class="faq-item">
-            <h3>Does Manna collect my personal data?</h3>
-            <p>No. Manna does not collect, store, or transmit any personal information. There are no accounts, no analytics, no tracking. All your data (preferences, themes, etc.) stays on your device. The only third-party service used is RevenueCat, solely for validating in-app purchases.</p>
+            <div class="faq-question">Why does Manna need photo library access?</div>
+            <p>Photo access is used for choosing custom backgrounds and for saving or sharing generated verse images. If you deny this permission, those related features may be limited.</p>
         </div>
 
         <div class="faq-item">
-            <h3>How do I change the Bible verse displayed on the widget?</h3>
-            <p>The widget automatically updates with a new verse daily. You can also open the Manna app to manually refresh or select a specific verse.</p>
+            <div class="faq-question">How do premium themes and restore work?</div>
+            <p>Manna uses Apple's purchase system and RevenueCat to unlock premium access. To restore, use the in-app restore option while signed in to the same Apple account that completed the original purchase.</p>
         </div>
 
         <div class="faq-item">
-            <h3>How do I change the widget theme?</h3>
-            <p>Open the Manna app → browse the theme gallery → tap on a theme to preview it → apply it to your widget. Free users have access to 6 themes; premium users can use all 30+ themes.</p>
+            <div class="faq-question">Can I use Manna without an account?</div>
+            <p>Yes. Manna does not require account registration for its main experience. Favorites, reading progress, reminder choices, and widget settings are stored locally on your device.</p>
         </div>
 
         <div class="faq-item">
-            <h3>How do I share a Bible verse as an image?</h3>
-            <p>Open the Manna app → select a verse → tap the share button → the verse image is generated locally on your device → choose where to share it via the iOS share sheet. No data is uploaded to any server.</p>
+            <div class="faq-question">What data is shared with the widget?</div>
+            <p>The app may share the selected verse, reference, language, theme, font, colors, and copied background assets with the widget extension through iOS App Group storage so the widget can render correctly.</p>
         </div>
 
-        <div class="faq-item">
-            <h3>What Bible versions are included?</h3>
-            <p>Manna includes curated verses from the KJV (King James Version, public domain) and the Chinese Union Version (CUV, public domain). All content is pre-loaded and available offline.</p>
-        </div>
+        <h2>Troubleshooting</h2>
 
-        <div class="faq-item">
-            <h3>The widget is not updating. What should I do?</h3>
-            <p>Try the following steps:</p>
-            <ul>
-                <li>Remove the widget and re-add it to your home screen</li>
-                <li>Make sure Manna is not restricted in Settings → General → Background App Refresh</li>
-                <li>Restart your device</li>
-                <li>Make sure you are running the latest version of Manna from the App Store</li>
-            </ul>
-        </div>
+        <h3>Custom background does not appear</h3>
+        <ol>
+            <li>Confirm photo access is allowed in iOS Settings.</li>
+            <li>Choose the background again inside Manna.</li>
+            <li>Reopen the app so the image can be copied to widget storage.</li>
+        </ol>
 
-        <div class="faq-item">
-            <h3>I purchased premium but my themes are not unlocked.</h3>
-            <p>Please try the following:</p>
-            <ul>
-                <li>Go to Settings in the Manna app and tap "Restore Purchases"</li>
-                <li>Make sure you are signed in with the correct Apple ID</li>
-                <li>Check your internet connection (needed only for purchase validation)</li>
-                <li>If the issue persists, contact us at onebestai@gmail.com with your Apple ID and purchase receipt</li>
-            </ul>
-        </div>
+        <h3>Reminder failed to schedule</h3>
+        <ol>
+            <li>Make sure notification permission is granted.</li>
+            <li>Check that Focus mode or Summary settings are not hiding notifications.</li>
+            <li>Pick a reminder time again in the app.</li>
+        </ol>
 
-        <div class="faq-item">
-            <h3>Is Manna safe for children?</h3>
-            <p>Yes. Manna is rated 4+ on the App Store. It contains no ads, no social features, no user-generated content, and no external links within the app. It is safe for users of all ages.</p>
-        </div>
-
-        <div class="faq-item">
-            <h3>How do I delete my data?</h3>
-            <p>Since all data is stored locally on your device, simply deleting the Manna app will remove all associated data. There is no cloud data to worry about.</p>
-        </div>
+        <h3>Purchase restore failed</h3>
+        <ol>
+            <li>Verify the device is online.</li>
+            <li>Confirm you are using the same Apple account used to buy premium access.</li>
+            <li>Retry the restore flow inside Manna.</li>
+        </ol>
 
         <div class="contact">
-            <h2>Contact Us</h2>
-            <p>If you have any questions, issues, or feedback, please don't hesitate to reach out:</p>
-            <p><strong>Email:</strong> <a href="mailto:onebestai@gmail.com">onebestai@gmail.com</a></p>
-            <p>We typically respond within 24-48 hours.</p>
-        </div>
-
-        <div class="links-section">
-            <h2>Legal</h2>
-            <p>
-                <a href="privacy-policy.html">Privacy Policy</a> &nbsp;|&nbsp;
-                <a href="terms-of-service.html">Terms of Service</a> &nbsp;|&nbsp;
-                <a href="privacy-policy-zh.html">隐私政策</a> &nbsp;|&nbsp;
-                <a href="terms-of-service-zh.html">服务条款</a>
-            </p>
-            <p style="color: #999; margin-top: 15px;">&copy; 2026 Manna Studio. All rights reserved.</p>
+            <h2>Contact Support</h2>
+            <p>If you still need help, send us your device model, iOS version, app version, and a short issue description.</p>
+            <p><strong>Email:</strong> onebestai@gmail.com</p>
         </div>
     </div>
 </body>

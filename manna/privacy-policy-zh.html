@@ -10,7 +10,7 @@
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
             line-height: 1.8;
@@ -18,7 +18,7 @@
             background: #f5f5f7;
             padding: 20px;
         }
-        
+
         .container {
             max-width: 800px;
             margin: 0 auto;
@@ -27,56 +27,75 @@
             border-radius: 10px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
-        
+
         h1 {
             color: #667eea;
             margin-bottom: 10px;
             font-size: 2.5em;
         }
-        
+
         .last-updated {
             color: #666;
             margin-bottom: 30px;
             font-style: italic;
         }
-        
+
         h2 {
             color: #667eea;
             margin-top: 30px;
             margin-bottom: 15px;
             font-size: 1.5em;
         }
-        
+
+        h3 {
+            color: #667eea;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
         p, li {
             margin-bottom: 15px;
         }
-        
+
         ul {
             margin-left: 20px;
         }
-        
+
+        .highlight {
+            background: #eef1ff;
+            padding: 20px;
+            border-left: 4px solid #667eea;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
         .contact {
             background: #f5f5f7;
             padding: 20px;
             border-radius: 8px;
             margin-top: 30px;
         }
-        
+
         a {
             color: #667eea;
             text-decoration: none;
             word-break: break-all;
         }
-        
+
         a:hover {
             text-decoration: underline;
         }
-        
+
+        strong {
+            color: #667eea;
+        }
+
         @media (max-width: 768px) {
             .container {
                 padding: 20px;
             }
-            
+
             h1 {
                 font-size: 2em;
             }
@@ -86,114 +105,77 @@
 <body>
     <div class="container">
         <h1>隐私政策</h1>
-        <p class="last-updated">最后更新日期：2026年2月2日</p>
-        
+        <p class="last-updated">最后更新日期：2026年4月13日</p>
+
+        <div class="highlight">
+            <p><strong>Manna 以本地优先为核心：</strong>经文内容、收藏、widget 设置、阅读进度和提醒偏好主要保存在您的设备上。您无需注册账号即可使用本应用。</p>
+        </div>
+
         <h2>1. 简介</h2>
-        <p>欢迎使用 Manna（"我们"、"我们的"或"本应用"）。本隐私政策说明我们在您使用离线圣经小组件应用时如何处理您的信息。</p>
-        <p>Manna 以隐私为核心原则设计。我们致力于保护您的隐私，确保您的个人信息安全。</p>
-        
-        <h2>2. 我们收集的信息</h2>
-        <p><strong>我们不收集、存储或传输任何个人信息。</strong></p>
-        <p>Manna 是一款完全离线的应用，具有以下特点：</p>
+        <p>本隐私政策说明 Manna（“我们”或“本应用”）在您使用应用及其小组件功能时如何处理信息。</p>
+        <p>Manna 是一款以 iOS 为主的每日经文与桌面小组件应用，提供离线内容、本地个性化、可选提醒、可选自定义背景及高级主题购买功能。</p>
+
+        <h2>2. 保存在您设备上的信息</h2>
+        <p>Manna 会在您的设备本地保存应用数据，可能包括：</p>
         <ul>
-            <li>不需要用户注册或登录</li>
-            <li>不收集任何个人数据</li>
-            <li>不跟踪您的使用情况或行为</li>
-            <li>不使用分析或跟踪工具</li>
-            <li>不访问您的通讯录、位置或其他设备数据</li>
+            <li>主题、字体、颜色和布局偏好</li>
+            <li>收藏经文与置顶经文</li>
+            <li>引导状态、语言偏好与双语模式设置</li>
+            <li>阅读计划进度、灵修完成状态与回访流程状态</li>
+            <li>提醒设置以及您选择的提醒时段</li>
+            <li>设备本地用于应用行为判断的高级权益状态</li>
+            <li>您选择使用的自定义背景图片路径</li>
         </ul>
-        
-        <h2>3. 信息使用方式</h2>
-        <p>由于我们不收集任何信息，因此我们不使用、共享或处理任何个人数据。</p>
-        
-        <h2>4. 本地数据存储</h2>
-        <p>所有应用数据都存储在您的设备本地，包括：</p>
+
+        <h2>3. 小组件数据与 App Group 共享存储</h2>
+        <p>为了驱动 iOS 主屏小组件，Manna 会在主应用与小组件扩展共享的 iOS App Group 容器中保存选定的小组件数据，可能包括：</p>
         <ul>
-            <li>从 BibleGateway（和合本）和 GitHub Bible Database 下载的圣经内容</li>
-            <li>您的主题偏好设置</li>
-            <li>您的字体样式选择</li>
-            <li>您的自定义背景图片</li>
+            <li>经文文本、引用、语言和样式选择</li>
+            <li>小组件主题、字体和颜色配置</li>
+            <li>供小组件使用的本地经文数据副本</li>
+            <li>供小组件渲染的背景图片副本</li>
         </ul>
-        <p>这些数据永远不会离开您的设备，我们或任何第三方都无法访问。</p>
-        
-        <h2>5. 图片分享功能</h2>
-        <p>Manna 允许您创建和分享圣经经文图片。当您使用分享功能时：</p>
-        <ul>
-            <li>图片在您的设备本地生成</li>
-            <li>图片不会上传到我们的服务器（我们没有任何服务器）</li>
-            <li>分享完全由 iOS 的原生分享系统处理</li>
-            <li>您可以控制图片的分享位置和方式</li>
-        </ul>
-        
-        <h2>6. 应用内购买</h2>
-        <p>Manna 提供一次性购买以解锁高级功能，包括：</p>
-        <ul>
-            <li>额外主题</li>
-            <li>自定义字体样式</li>
-            <li>自定义背景图片</li>
-        </ul>
-        <p>所有购买交易均通过 Apple App Store 处理。我们无法访问您的支付信息。有关 Apple 如何处理您的支付数据的信息，请参阅 Apple 的隐私政策。</p>
-        
-        <h2>7. 第三方服务</h2>
-        <p>Manna 不集成任何第三方服务、分析平台或广告网络。</p>
-        
-        <h3>7.1 圣经内容来源</h3>
-        <p>Manna 中的圣经内容来源于以下开源资源：</p>
-        <ul>
-            <li><strong>BibleGateway - 中文和合本简体版（CUVS）</strong><br>
-                来源：<a href="https://www.biblegateway.com/versions/Chinese-Union-Version-Simplified-CUVS/" target="_blank">https://www.biblegateway.com/versions/Chinese-Union-Version-Simplified-CUVS/</a><br>
-                中文和合本属于公共领域，可自由使用。</li>
-            <li><strong>GitHub - Bible Database (scrollmapper/bible_databases)</strong><br>
-                来源：<a href="https://github.com/scrollmapper/bible_databases" target="_blank">https://github.com/scrollmapper/bible_databases</a><br>
-                此开源数据库提供结构化的圣经文本数据，可用于个人和商业用途。</li>
-        </ul>
-        <p>此内容在应用安装时下载一次并存储在您的设备本地。在正常应用使用期间，不会与这些服务保持持续连接。我们不会跟踪或监控您的圣经阅读活动。</p>
-        
-        <h2>8. 儿童隐私</h2>
-        <p>Manna 的年龄分级为 4+，适合所有年龄段的用户使用。由于我们不收集任何个人信息，因此没有关于儿童数据的特殊考虑。</p>
-        
-        <h2>9. 数据安全</h2>
-        <p>由于所有数据都存储在您的设备本地，我们不收集或传输任何信息，因此您的数据安全取决于您设备的安全措施。我们建议：</p>
-        <ul>
-            <li>使用强密码保护设备</li>
-            <li>保持 iOS 系统更新</li>
-            <li>使用设备加密（iOS 默认启用）</li>
-        </ul>
-        
-        <h2>10. 国际数据传输</h2>
-        <p>由于我们不收集或传输任何数据，因此不存在国际数据传输。</p>
-        
-        <h2>11. 您的权利</h2>
-        <p>根据各种隐私法律（包括 GDPR、CCPA 等），您对个人数据拥有某些权利。但是，由于我们不收集任何个人信息，这些权利不适用于我们的应用。</p>
-        <p>您可以完全控制设备上存储的所有应用数据。您可以：</p>
-        <ul>
-            <li>随时删除应用以移除所有本地数据</li>
-            <li>在应用内重置应用设置</li>
-            <li>通过您的 Apple ID 管理购买历史记录</li>
-        </ul>
-        
-        <h2>12. 隐私政策变更</h2>
-        <p>我们可能会不时更新本隐私政策。我们将通过以下方式通知您任何变更：</p>
-        <ul>
-            <li>在本页面发布新的隐私政策</li>
-            <li>更新"最后更新日期"</li>
-            <li>对于重大变更，提供应用内通知</li>
-        </ul>
-        
-        <h2>13. 法律合规</h2>
-        <p>本隐私政策符合以下法规：</p>
-        <ul>
-            <li>通用数据保护条例（GDPR）- 欧盟</li>
-            <li>加州消费者隐私法（CCPA）- 美国</li>
-            <li>个人信息保护法（PIPL）- 中国</li>
-            <li>通用数据保护法（LGPD）- 巴西</li>
-            <li>应用分发地区的其他适用隐私法律</li>
-        </ul>
-        
+        <p>这些存储设计为仅保留在您的设备本地，用于让小组件在不打开主应用时也能独立显示内容。</p>
+
+        <h2>4. 我们不会为自有服务器收集的数据</h2>
+        <p>我们不要求账号注册，也不会为您的阅读活动、收藏、提醒或小组件使用建立自有分析、广告或社交追踪系统。</p>
+        <p>我们不会主动为 Manna 的核心体验收集您的通讯录、精确位置、麦克风输入或摄像头录像。</p>
+
+        <h2>5. 照片库权限</h2>
+        <p>Manna 可能请求访问照片库，以便您选择自定义背景图片，或保存/分享经文图片。如果您拒绝该权限，这些相关功能可能无法正常工作。</p>
+        <p>您选择的背景图会保存在本地，并可能被复制到 app group 容器，以便小组件显示。</p>
+
+        <h2>6. 通知与提醒</h2>
+        <p>如果您启用提醒，Manna 会向 iOS 请求本地通知权限，并在您的设备上安排提醒。提醒设置及相关状态会保存在本地。</p>
+        <p>这些提醒由设备本地触发，不依赖我们运营的账号系统或服务器推送服务。</p>
+
+        <h2>7. 分享与生成图片</h2>
+        <p>Manna 允许您生成并分享经文图片。这些图片会在设备本地渲染，再交由 Apple 原生分享机制处理。一旦您把内容分享到其他应用或服务，目标平台的隐私规则将开始适用。</p>
+
+        <h2>8. 应用内购买与服务提供方</h2>
+        <p>Manna 使用 RevenueCat 和 Apple 的应用内购买基础设施来校验高级权限、获取付费产品信息、完成购买并恢复权益。</p>
+        <p>Apple 和 RevenueCat 可能处理有限的商业相关信息，例如匿名设备标识符、购买凭证、应用版本和权益状态。我们不会因为该流程把您的收藏经文、灵修进度或个性化小组件内容上传到自有服务器。</p>
+        <p>您可以在此查看 RevenueCat 的隐私政策：<a href="https://www.revenuecat.com/privacy" target="_blank">https://www.revenuecat.com/privacy</a></p>
+
+        <h2>9. 内容提供方式</h2>
+        <p>Manna 的经文、灵修和阅读计划体验主要依赖打包资源或本地存储内容，而不是通用在线内容账号系统。您的阅读活动设计为保留在设备本地。</p>
+
+        <h2>10. Siri 与系统建议</h2>
+        <p>Manna 可能向 iOS 系统功能捐赠有限的应用活动，用于搜索或系统建议等体验。这部分行为由 Apple 的系统框架控制。</p>
+
+        <h2>11. 数据保留与删除</h2>
+        <p>您的本地 Manna 数据会一直保存在设备上，直到您手动删除、重置或卸载应用。如果您保存或分享了生成的经文图片，这些副本可能继续保留在您存储或分享到的位置。</p>
+
+        <h2>12. 儿童隐私</h2>
+        <p>Manna 并不围绕用户账号或向我们直接提交个人信息而设计。如果您认为儿童曾直接向我们提交个人信息，请联系我们核查。</p>
+
+        <h2>13. 政策更新</h2>
+        <p>我们可能不时更新本隐私政策。更新时，我们会修改“最后更新日期”并在此发布新版本。</p>
+
         <div class="contact">
             <h2>14. 联系我们</h2>
-            <p>如果您对本隐私政策有任何疑问，请联系我们：</p>
-            <p><strong>电子邮箱：</strong> onebestai@gmail.com</p>
+            <p>如果您对本隐私政策有疑问，请联系：</p>
+            <p><strong>邮箱：</strong> onebestai@gmail.com</p>
         </div>
     </div>
 </body>
