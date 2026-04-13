@@ -1,6 +1,6 @@
 # Manna Studio - GitHub Pages
 
-这是 Manna Studio 的 GitHub Pages 项目，包含两个应用的隐私政策和服务条款。
+这是 Manna Studio 的 GitHub Pages 项目，包含多个应用的隐私政策和服务条款。
 
 ## 项目结构
 
@@ -13,6 +13,13 @@
 │   ├── terms-of-service.html          # 服务条款（英文）
 │   └── terms-of-service-zh.html       # 服务条款（中文）
 ├── cyclesafe/                          # CycleSafe 应用文档
+│   ├── privacy-policy.html            # 隐私政策（英文）
+│   ├── privacy-policy-zh.html         # 隐私政策（中文）
+│   ├── terms-of-service.html          # 服务条款（英文）
+│   └── terms-of-service-zh.html       # 服务条款（中文）
+├── mindvault/                          # MindVault 应用文档
+│   ├── support.html                   # 技术支持（英文）
+│   ├── support-zh.html                # 技术支持（中文）
 │   ├── privacy-policy.html            # 隐私政策（英文）
 │   ├── privacy-policy-zh.html         # 隐私政策（中文）
 │   ├── terms-of-service.html          # 服务条款（英文）
@@ -58,6 +65,23 @@
   - 高级安全功能
 - **内购**: 一次性购买解锁生物识别锁定、密码保护、伪装模式、快速锁定
 
+### MindVault - 本地优先 AI 知识库
+- **定位**: 本地优先 AI 笔记与知识库应用
+- **功能**:
+  - 本地笔记与 Markdown 编辑
+  - 本地文件导入与检索索引
+  - 网页链接导入为笔记
+  - 语音笔记录制与设备端转写
+  - 本地模型下载与设备端 AI 问答
+  - 纯本地模式、PIN 应用锁、本地备份
+- **支持页**:
+  - 英文技术支持
+  - 中文技术支持
+- **隐私边界**:
+  - 默认内容保留在设备本地
+  - 网页导入和模型下载会直接从设备连接第三方站点
+  - 当前代码中未见广告、分析 SDK 或强制云同步
+
 ## 隐私承诺
 
 ### Lansea AI
@@ -74,6 +98,13 @@
 - ✅ 不使用第三方分析工具
 - ✅ 所有数据仅存储在用户设备本地
 - ✅ 符合 GDPR、CCPA、PIPL、LGPD 等国际隐私法规
+
+### MindVault
+- ✅ 本地优先，核心内容默认存储在设备本地
+- ✅ 不要求账号注册
+- ✅ 当前代码中未见广告 SDK、分析 SDK、强制云同步
+- ✅ 可选联网行为限于网页导入、模型下载、外部链接和平台商店流程
+- ✅ 文档已按本地存储、语音、网页导入、模型下载、PIN 锁和本地备份进行披露
 
 ## 部署到 GitHub Pages
 

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindVault - Technical Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: #f5f5f7;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #1f7a8c;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+
+        h2 {
+            color: #1f7a8c;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        h3 {
+            color: #1f7a8c;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        p, li {
+            margin-bottom: 15px;
+        }
+
+        ul, ol {
+            margin-left: 20px;
+        }
+
+        .highlight {
+            background: #e8f6f8;
+            padding: 20px;
+            border-left: 4px solid #1f7a8c;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .feature-item {
+            background: #f5f5f7;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .feature-item .icon {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid #eee;
+            padding: 18px 0;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+
+        .contact {
+            background: #f5f5f7;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+
+        a {
+            color: #1f7a8c;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .feature-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MindVault - Technical Support</h1>
+        <p class="subtitle">Local-first notes, documents, voice capture, and AI search in one private workspace.</p>
+
+        <div class="highlight">
+            <p><strong>Quick Help:</strong> If MindVault feels stuck, first restart the app, confirm you still have free storage, and check whether the feature you are using needs a local model download, microphone permission, or a working network connection for link import.</p>
+        </div>
+
+        <h2>About MindVault</h2>
+        <p>MindVault is a local-first AI notes app for writing notes, importing documents, recording voice notes, and asking questions against your own local library. Some builds may also appear under the product name <strong>gemmaNote AI</strong>.</p>
+
+        <h2>Key Features</h2>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <div class="icon">📝</div>
+                <h3>Local Notes</h3>
+                <p>Create and edit markdown or plain-text notes stored on your device.</p>
+            </div>
+            <div class="feature-item">
+                <div class="icon">📂</div>
+                <h3>Document Import</h3>
+                <p>Import supported files such as TXT, Markdown, PDF, DOCX, HTML, JSON, CSV, XML, ENEX, and ZIP.</p>
+            </div>
+            <div class="feature-item">
+                <div class="icon">🎙️</div>
+                <h3>Voice Notes</h3>
+                <p>Record local voice notes and use on-device transcription when a speech model is available.</p>
+            </div>
+            <div class="feature-item">
+                <div class="icon">🧠</div>
+                <h3>Local AI</h3>
+                <p>Run local AI workflows over your notes and imported content using downloaded models.</p>
+            </div>
+            <div class="feature-item">
+                <div class="icon">🔒</div>
+                <h3>Privacy Controls</h3>
+                <p>Use Local-Only Mode, local PIN app lock, and local backups for more control.</p>
+            </div>
+            <div class="feature-item">
+                <div class="icon">🔗</div>
+                <h3>Link Import</h3>
+                <p>Turn selected web pages into notes by importing readable text directly from a URL.</p>
+            </div>
+        </div>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <h3>Where is my MindVault data stored?</h3>
+            <p>MindVault is designed as a local-first app. Your notes, chats, imported text, audio files, transcripts, and local settings are stored on your device by default. See our <a href="privacy-policy.html">Privacy Policy</a> for details.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Does MindVault need the internet?</h3>
+            <p>Most core data stays local, but some optional features use the network. Link import fetches the page you choose to import, and model downloads fetch local AI or speech models from third-party hosts.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Why is voice transcription not working?</h3>
+            <p>Voice transcription needs microphone permission for recording and also requires a compatible local speech model to be available. If the model has not finished downloading yet, wait for the download to complete and try again.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>What file types can I import?</h3>
+            <p>Current supported import formats include TXT, MD, Markdown, JSON, CSV, XML, HTML, HTM, PDF, DOC, DOCX, ENEX, and ZIP. Directories may also be scanned recursively for supported files.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Why does a link import fail?</h3>
+            <p>Link import can fail if the URL is invalid, the website blocks requests, the page has no readable text, or your network connection is unavailable. Try opening the same URL in your browser first to confirm it is reachable.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How do I enable App Lock?</h3>
+            <p>Open Settings → Privacy &amp; Security → App Lock, then create a local PIN. Keep the PIN safe. In the current implementation, the app cannot recover a forgotten PIN for you.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How do local backups work?</h3>
+            <p>MindVault can create local backup copies of its database in a backup folder on your device. Manage those backup files carefully, because they may contain sensitive note and chat data.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How do paid plans or restore purchases work?</h3>
+            <p>Availability of paid features depends on the build or release channel you are using. If your version includes store-managed billing, use the app's restore option on the same store account. Some development or preview builds may show plan screens without live billing.</p>
+        </div>
+
+        <h2>Troubleshooting</h2>
+
+        <h3>Import Finds No Supported Files</h3>
+        <ol>
+            <li>Confirm the selected file extension is supported.</li>
+            <li>If you selected a folder, confirm it actually contains importable files.</li>
+            <li>Try importing one file directly instead of a whole directory.</li>
+        </ol>
+
+        <h3>AI Response Is Slow or Unavailable</h3>
+        <ol>
+            <li>Check whether a local model is downloaded and selected.</li>
+            <li>Try a smaller model if your device has limited memory.</li>
+            <li>Restart the app after a model download or model switch.</li>
+        </ol>
+
+        <h3>Voice Note Recording Fails</h3>
+        <ol>
+            <li>Allow microphone access in your system settings.</li>
+            <li>Make sure the device still has enough local storage.</li>
+            <li>Close and reopen the app, then try recording again.</li>
+        </ol>
+
+        <h3>App Lock Issues</h3>
+        <ol>
+            <li>Confirm you are entering the correct local PIN.</li>
+            <li>If the vault relocks after backgrounding, that is expected when App Lock is enabled.</li>
+            <li>If you forgot the PIN, contact support before deleting local data so we can confirm the safest recovery path available for your build.</li>
+        </ol>
+
+        <h2>Before Contacting Support</h2>
+        <p>To help us diagnose an issue faster, include:</p>
+        <ul>
+            <li>Your device model and operating system version</li>
+            <li>The app version or build you are using</li>
+            <li>What you were trying to do</li>
+            <li>The exact error message, if any</li>
+            <li>Whether the issue involves import, voice, model download, app lock, or chat</li>
+        </ul>
+
+        <div class="contact">
+            <h2>Contact Support</h2>
+            <p>If you need help, contact us at:</p>
+            <p><strong>Email:</strong> onebestai@gmail.com</p>
+            <p>We recommend using the subject line <strong>MindVault Support</strong> so we can route your message faster.</p>
+        </div>
+    </div>
+</body>
+</html>
