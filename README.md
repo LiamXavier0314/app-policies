@@ -21,7 +21,7 @@
 │   ├── privacy-policy-zh.html         # 隐私政策（中文）
 │   ├── terms-of-service.html          # 服务条款（英文）
 │   └── terms-of-service-zh.html       # 服务条款（中文）
-├── mindvault/                          # gemmaNote AI 应用文档
+├── mindvault/                          # NoteLM 应用文档
 │   ├── support.html                   # 技术支持（英文）
 │   ├── support-zh.html                # 技术支持（中文）
 │   ├── privacy-policy.html            # 隐私政策（英文）
@@ -71,7 +71,7 @@
 - **内购**: 通过 RevenueCat 与应用商店管理 Pro 权益
 - **隐私**: 本地加密数据库与安全存储为主，购买校验流程可能联网
 
-### gemmaNote AI - 本地优先 AI 知识库
+### NoteLM - 本地优先 AI 知识库
 - **定位**: 本地优先 AI 笔记与知识库应用
 - **功能**:
   - 本地笔记与 Markdown 编辑
@@ -105,7 +105,7 @@
 - ✅ 所有数据仅存储在用户设备本地
 - ✅ 符合 GDPR、CCPA、PIPL、LGPD 等国际隐私法规
 
-### gemmaNote AI
+### NoteLM
 - ✅ 本地优先，核心内容默认存储在设备本地
 - ✅ 不要求账号注册
 - ✅ 当前代码中未见广告 SDK、分析 SDK、强制云同步
