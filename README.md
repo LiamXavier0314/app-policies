@@ -1,12 +1,24 @@
 # Manna Studio - GitHub Pages
 
-这是 Manna Studio 的 GitHub Pages 项目，包含多个应用的隐私政策和服务条款。
+这是 Manna Studio 的 GitHub Pages 项目，包含多个应用的隐私政策、服务条款和技术支持页面。
 
 ## 项目结构
 
 ```
 .
 ├── index.html                          # 主页
+├── clearbrief/                         # ClearBrief Coach 应用文档
+│   ├── support.html                   # 技术支持（英文）
+│   ├── support-zh.html                # 技术支持（中文）
+│   ├── privacy-policy.html            # 隐私政策（英文）
+│   ├── privacy-policy-zh.html         # 隐私政策（中文）
+│   ├── terms-of-service.html          # 服务条款（英文）
+│   └── terms-of-service-zh.html       # 服务条款（中文）
+├── lansea/                             # Lansea AI 应用文档
+│   ├── privacy-policy.html            # 隐私政策（英文）
+│   ├── privacy-policy-zh.html         # 隐私政策（中文）
+│   ├── terms-of-service.html          # 服务条款（英文）
+│   └── terms-of-service-zh.html       # 服务条款（中文）
 ├── manna/                              # Manna 应用文档
 │   ├── support.html                   # 技术支持（英文）
 │   ├── support-zh.html                # 技术支持（中文）
@@ -21,14 +33,9 @@
 │   ├── privacy-policy-zh.html         # 隐私政策（中文）
 │   ├── terms-of-service.html          # 服务条款（英文）
 │   └── terms-of-service-zh.html       # 服务条款（中文）
-├── mindvault/                          # NoteLM 应用文档
-│   ├── support.html                   # 技术支持（英文）
-│   ├── support-zh.html                # 技术支持（中文）
-│   ├── privacy-policy.html            # 隐私政策（英文）
-│   ├── privacy-policy-zh.html         # 隐私政策（中文）
-│   ├── terms-of-service.html          # 服务条款（英文）
-│   └── terms-of-service-zh.html       # 服务条款（中文）
-└── lansea/                             # Lansea AI 应用文档
+└── mindvault/                          # NoteLM 应用文档
+    ├── support.html                   # 技术支持（英文）
+    ├── support-zh.html                # 技术支持（中文）
     ├── privacy-policy.html            # 隐私政策（英文）
     ├── privacy-policy-zh.html         # 隐私政策（中文）
     ├── terms-of-service.html          # 服务条款（英文）
@@ -37,10 +44,20 @@
 
 ## 应用信息
 
+### ClearBrief Coach - 沟通训练教练
+- **定位**: Android / iOS 沟通训练应用
+- **功能**:
+  - 训练任务、练习反馈和推荐路径
+  - 文本输入与 Android 离线语音转写
+  - 账号登录、订阅管理和购买恢复
+  - 本地设置、提醒和练习历史
+  - 可选的云端辅助画像与推荐生成
+- **隐私**: 主要为本地优先存储；会根据功能需要使用 Supabase、RevenueCat 和应用商店登录/购买流程
+
 ### Lansea AI - AI 陪伴
 - **年龄分级**: 18+
 - **类型**: AI 陪伴应用
-- **功能**: 
+- **功能**:
   - 个性化 AI 陪伴对话
   - 文本和语音交互
   - 情感支持和陪伴
@@ -52,7 +69,7 @@
 ### Manna - 圣经小组件
 - **年龄分级**: 4+
 - **类型**: iOS 主屏每日经文与灵修小组件应用
-- **功能**: 
+- **功能**:
   - 离线经文内容与多语言展示
   - 小组件主题、字体、颜色与背景自定义
   - 收藏、置顶、阅读计划与灵修流程
@@ -89,6 +106,13 @@
   - 当前代码中未见广告、分析 SDK 或强制云同步
 
 ## 隐私承诺
+
+### ClearBrief Coach
+- ✅ 本地优先保存练习内容和偏好
+- ✅ Android 支持离线语音转写
+- ✅ 登录、订阅和云端辅助功能仅在需要时才会使用外部服务
+- ✅ 不设计行为广告，不主动出售个人信息
+- ✅ 支持用户通过联系邮箱获取帮助或请求删除
 
 ### Lansea AI
 - ✅ 明确的数据收集和使用说明
