@@ -105,10 +105,10 @@
 <body>
     <div class="container">
         <h1>Privacy Policy</h1>
-        <p class="last-updated">Last Updated: April 13, 2026</p>
+        <p class="last-updated">Last Updated: July 22, 2026</p>
 
         <div class="highlight">
-            <p><strong>Privacy-first by design:</strong> PetalCare does not require an account and does not sync your cycle history to a PetalCare cloud. Cycle logs, symptoms, settings, encrypted backups, and imported health samples stay on your device unless you choose to share or export them.</p>
+            <p><strong>Privacy-first by design:</strong> PetalCare does not require an account and does not sync your cycle history, private assistant conversations, or health records to a PetalCare cloud. They stay on your device unless you choose to share or export them.</p>
         </div>
 
         <h2>1. Introduction</h2>
@@ -122,6 +122,7 @@
             <li>Security preferences such as passcode, biometric lock status, camouflage mode, and panic mode settings</li>
             <li>Encrypted backup files you create and restore yourself</li>
             <li>Optional health samples you import from Apple Health or Health Connect</li>
+            <li>Private assistant conversations, locally generated responses, and local assistant-package installation records</li>
         </ul>
         <p>We do not ask you to create an account, and we do not run our own cloud database for your cycle history.</p>
 
@@ -130,20 +131,25 @@
         <p>We also do not use analytics SDKs, ad networks, or social login providers inside PetalCare.</p>
 
         <h2>4. When Network Access May Occur</h2>
-        <p>PetalCare is not a cloud-sync app, but limited network access may occur for commerce-related flows such as:</p>
+        <p>PetalCare is not a cloud-sync app, but limited network access may occur for the following optional flows:</p>
         <ul>
             <li>Purchasing PetalCare Pro</li>
             <li>Restoring purchases</li>
             <li>Verifying premium entitlement status with app store infrastructure and RevenueCat</li>
+            <li>Downloading an optional offline assistant package and retrieving its published integrity metadata for verification</li>
         </ul>
-        <p>These commerce checks do not upload your cycle history, symptom notes, or imported health samples to a PetalCare cloud.</p>
+        <p>Purchase checks do not upload your cycle history, symptom notes, or imported health samples to a PetalCare cloud. A model-distribution provider may receive standard download-request information, such as your IP address, device/network information, and requested file, under that provider's own privacy practices. Your assistant conversations and health records are not sent with those download requests.</p>
 
-        <h2>5. Apple Health and Health Connect</h2>
+        <h2>5. On-Device Private Assistant and Insights</h2>
+        <p>On supported iOS devices, you may choose to download or import an offline assistant package. The private assistant processes your messages and generates responses on your device. PetalCare does not send those conversations to our servers or to an external AI service for generation.</p>
+        <p>When you ask for a local cycle insight, the app may provide relevant records you selected or recorded in the app, such as cycle dates, flow, symptoms, mood, and notes, to the on-device assistant. This analysis remains on your device. The assistant provides general informational support only and is not a diagnosis, prescription, emergency service, or substitute for a clinician.</p>
+
+        <h2>6. Apple Health and Health Connect</h2>
         <p>PetalCare offers optional Apple Health and Health Connect integrations. If you explicitly enable these permissions, the app may read supported health signals such as resting heart rate, body temperature, sleep, steps, and related historical samples to improve local insights and reports.</p>
         <p>On supported Apple devices, health access is used for optional import of supported signals into PetalCare's local experience and reports.</p>
         <p>Imported health samples remain on your device unless you later export or share them yourself.</p>
 
-        <h2>6. Security and Local Storage</h2>
+        <h2>7. Security and Local Storage</h2>
         <p>PetalCare uses device-level and app-level protections to reduce unauthorized access, including:</p>
         <ul>
             <li>Encrypted local database storage</li>
@@ -153,7 +159,7 @@
         </ul>
         <p>No security measure is perfect, but we designed the app to avoid unnecessary external transmission of sensitive health information.</p>
 
-        <h2>7. Backups, Exports, and Reports</h2>
+        <h2>8. Backups, Exports, and Reports</h2>
         <p>If you use PetalCare's export or backup features:</p>
         <ul>
             <li>Encrypted backup files are created locally on your device</li>
@@ -162,28 +168,28 @@
             <li>Once you export or share data outside the app, the privacy practices of those destinations will apply</li>
         </ul>
 
-        <h2>8. Photo Library and Device Permissions</h2>
+        <h2>9. Photo Library and Device Permissions</h2>
         <p>On iOS, PetalCare may request photo library access so you can save exported reports or charts. Biometric permission is requested only if you enable biometric lock. Health permissions are optional and can be revoked in your system settings.</p>
 
-        <h2>9. In-App Purchases and Service Providers</h2>
+        <h2>10. In-App Purchases and Service Providers</h2>
         <p>Payments are processed by Apple App Store or Google Play, depending on your platform. We use RevenueCat to help validate purchases and restore premium access.</p>
         <p>RevenueCat and app store operators may process limited transaction-related data such as anonymous device identifiers, purchase receipts, app version, and platform information. They do not receive your cycle notes, symptom history, or locally stored reports from us.</p>
         <p>You can review RevenueCat's privacy policy here: <a href="https://www.revenuecat.com/privacy" target="_blank">https://www.revenuecat.com/privacy</a></p>
 
-        <h2>10. Retention and Deletion</h2>
-        <p>Your records remain on your device until you delete them, clear app data, uninstall the app, or overwrite them during a restore. If you created exported files or backups outside the app, you are responsible for managing or deleting those copies.</p>
+        <h2>11. Retention and Deletion</h2>
+        <p>Your records, local assistant conversations, and downloaded assistant packages remain on your device until you delete them, clear app data, uninstall the app, or overwrite them during a restore. If you created exported files or backups outside the app, you are responsible for managing or deleting those copies.</p>
 
-        <h2>11. Children's Privacy</h2>
+        <h2>12. Children's Privacy</h2>
         <p>PetalCare is not directed to children under the minimum age allowed by applicable app store rules in your region. If you believe a child has provided us personal information directly, contact us and we will review the situation. In normal use, PetalCare does not require account registration or direct submission of personal information to us.</p>
 
-        <h2>12. International Use</h2>
+        <h2>13. International Use</h2>
         <p>Because core health data stays on your device, PetalCare does not routinely transfer your cycle history internationally through our own servers. Purchase validation providers may process transaction metadata according to their own global infrastructure and legal obligations.</p>
 
-        <h2>13. Changes to This Policy</h2>
+        <h2>14. Changes to This Policy</h2>
         <p>We may update this Privacy Policy from time to time. When we do, we will post the updated version on this page and revise the "Last Updated" date.</p>
 
         <div class="contact">
-            <h2>14. Contact Us</h2>
+            <h2>15. Contact Us</h2>
             <p>If you have questions about this Privacy Policy or PetalCare's privacy practices, contact us at:</p>
             <p><strong>Email:</strong> onebestai@gmail.com</p>
         </div>
