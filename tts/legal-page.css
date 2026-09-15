@@ -1,0 +1,106 @@
+:root {
+  color-scheme: light;
+  --ink: #26313d;
+  --muted: #627180;
+  --paper: #fffefa;
+  --field: #edf2f5;
+  --line: #d3dce2;
+  --accent: #a3482b;
+  --accent-dark: #79331e;
+  --accent-soft: #f7e7df;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  padding: clamp(18px, 4vw, 48px) 20px 48px;
+  background: var(--field);
+  color: var(--ink);
+  font-family: "Avenir Next", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.page {
+  width: min(100%, 1280px);
+  margin: 0 auto;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--paper);
+  box-shadow: 0 20px 60px rgba(38, 49, 61, 0.08);
+}
+
+.masthead { padding: clamp(24px, 5vw, 58px) clamp(24px, 5vw, 72px) 30px; }
+.eyebrow { margin: 0 0 14px; color: var(--accent); font-size: 0.75rem; font-weight: 750; letter-spacing: 0.12em; text-transform: uppercase; }
+h1, h2 { color: var(--accent-dark); line-height: 1.2; }
+h1 { margin: 0; font-size: clamp(2.1rem, 5vw, 4rem); font-weight: 760; letter-spacing: 0; }
+.subtitle { margin: 12px 0 0; color: var(--muted); font-size: 1.05rem; }
+.meta { margin: 16px 0 0; color: var(--muted); font-size: 0.9rem; }
+
+.document-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 28px;
+  padding: 14px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.document-nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 5px 12px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: var(--accent-dark);
+  font-size: 0.92rem;
+  font-weight: 650;
+  text-decoration: none;
+}
+.document-nav a[aria-current="page"] { background: var(--accent-soft); }
+.document-nav a:hover, .document-nav a:focus-visible { border-color: var(--accent); background: #fff8f4; outline: none; }
+.document-nav .language { margin-left: auto; }
+
+.document { padding: 0 clamp(24px, 5vw, 72px) clamp(32px, 6vw, 72px); }
+.document h2 {
+  margin: 52px 0 18px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--line);
+  font-size: 1.3rem;
+  font-weight: 760;
+}
+.document .tri { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(20px, 3vw, 42px); }
+.document .lang { min-width: 0; }
+.document .lang.en { font-family: "Avenir Next", Georgia, serif; }
+.document .lang.tw, .document .lang.zh { font-family: "PingFang TC", "PingFang SC", "Hiragino Sans GB", "Microsoft JhengHei", "Microsoft YaHei", serif; }
+.document .tag { display: block; margin-bottom: 10px; color: var(--accent); font-family: "Avenir Next", sans-serif; font-size: 0.72rem; font-weight: 750; letter-spacing: 0.11em; text-transform: uppercase; }
+.document p, .document blockquote { margin: 0; }
+.document blockquote { padding-left: 16px; border-left: 3px solid #e5baa9; }
+.document strong { color: var(--accent-dark); }
+.document a { color: var(--accent-dark); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.loading, .load-error { margin: 32px 0; color: var(--muted); }
+.load-error a { color: var(--accent-dark); }
+
+.footer { padding: 20px clamp(24px, 5vw, 72px); border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; }
+[data-view-language="en"] .lang:not(.en), [data-view-language="tw"] .lang:not(.tw), [data-view-language="zh"] .lang:not(.zh) { display: none; }
+[data-view-language="en"] .tri, [data-view-language="tw"] .tri, [data-view-language="zh"] .tri { grid-template-columns: minmax(0, 820px); }
+
+@media (max-width: 860px) {
+  .document .tri { grid-template-columns: 1fr; gap: 24px; }
+  .document .lang { padding-bottom: 24px; border-bottom: 1px solid var(--line); }
+  .document .lang:last-child { padding-bottom: 0; border-bottom: 0; }
+  .document-nav .language { margin-left: 0; }
+}
+
+@media (max-width: 600px) {
+  body { padding: 12px; }
+  .masthead { padding: 24px 20px; }
+  .document { padding: 0 20px 32px; }
+  .footer { padding: 18px 20px; }
+  .document-nav { gap: 4px; }
+  .document-nav a { padding-inline: 8px; }
+  .document h2 { margin-top: 38px; }
+}

@@ -28,9 +28,9 @@
 <div class="tos-doc">
 
 <header>
-  <div class="kicker">Manna Studio · Legal</div>
+  <div class="kicker">OfflineTranslate · Legal</div>
   <h1>Terms of Service</h1>
-  <div class="sub">服務條款 · 服务条款</div>
+  <div class="sub">OfflineTranslate · 服務條款 · 服务条款</div>
   <div class="meta">Last Updated — September 13, 2026</div>
 </header>
 
@@ -39,19 +39,19 @@
 <section class="tri">
 <div class="lang en">
 
-> ‘By downloading or using the **OmniVoice 離線同傳** App (“the App”, “we”, “us”, or “our”), these Terms will automatically apply to you. You should therefore read them carefully before using the App. You confirm that you are of legal age to enter into a binding agreement and that you agree to be bound by these Terms. If you do not agree to these Terms, please do not use the App or delete it from your device. Your continued use of the App constitutes acceptance of these Terms.’ 
+> ‘By downloading or using the **OfflineTranslate** App (“the App”, “we”, “us”, or “our”), these Terms will automatically apply to you. You should therefore read them carefully before using the App. You confirm that you are of legal age to enter into a binding agreement and that you agree to be bound by these Terms. If you do not agree to these Terms, please do not use the App or delete it from your device. Your continued use of the App constitutes acceptance of these Terms.’
 
 </div>
 <div class="lang tw">
 
 <span class="tag">繁體中文</span>
-『當您下載或使用 **OmniVoice 離線同傳**應用程式（「本應用程式」、「我們」或「我們的」）時，本條款將自動適用於您。因此，請在使用應用程式前仔細閱讀本條款。您確認您已達可簽訂具約束力協議之法定年齡，並同意受本條款之拘束。若您不同意本條款，請勿使用本應用程式，或從您的裝置將之刪除。您繼續使用本應用程式即構成對本條款之接受。』
+『當您下載或使用 **OfflineTranslate** 應用程式（「本應用程式」、「我們」或「我們的」）時，本條款將自動適用於您。因此，請在使用應用程式前仔細閱讀本條款。您確認您已達可簽訂具約束力協議之法定年齡，並同意受本條款之拘束。若您不同意本條款，請勿使用本應用程式，或從您的裝置將之刪除。您繼續使用本應用程式即構成對本條款之接受。』
 
 </div>
 <div class="lang zh">
 
 <span class="tag">简体中文</span>
-『当您下载或使用 **OmniVoice 离线同传**应用程序（“本应用程序”、“我们”或“我们的”）时，本条款将自动适用于您。因此，请在使用应用程序前仔细阅读本条款。您确认您已达可签订具约束力协议之法定年龄，并同意受本条款之约束。若您不同意本条款，请勿使用本应用程序，或从您的设备将其删除。您继续使用本应用程序即构成对本条款之接受。』
+『当您下载或使用 **OfflineTranslate** 应用程序（“本应用程序”、“我们”或“我们的”）时，本条款将自动适用于您。因此，请在使用应用程序前仔细阅读本条款。您确认您已达可签订具约束力协议之法定年龄，并同意受本条款之约束。若您不同意本条款，请勿使用本应用程序，或从您的设备将其删除。您继续使用本应用程序即构成对本条款之接受。』
 
 </div>
 </section>

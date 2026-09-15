@@ -45,7 +45,7 @@
     ├── privacy-policy-zh.html         # 隐私政策（中文）
     ├── terms-of-service.html          # 服务条款（英文）
     └── terms-of-service-zh.html       # 服务条款（中文）
-└── tts/                               # OmniVoice 离线同传 应用文档
+└── tts/                               # OfflineTranslate 应用文档
     ├── PRIVACY_POLICY.md             # 隐私政策（中英双语 · scriptio continua 排版）
     └── TERMS_OF_SERVICE.md           # 服务条款（中英双语 · scriptio continua 排版）
 ```
@@ -124,7 +124,7 @@
   - 网页导入和模型下载会直接从设备连接第三方站点
   - 当前代码中未见广告、分析 SDK 或强制云同步
 
-### OmniVoice 离线同传 - 离线语音翻译
+### OfflineTranslate - 离线语音翻译
 - **年龄分级**: 4+
 - **类型**: iOS 完全离线的语音识别、翻译与语音克隆应用
 - **功能**:
@@ -174,7 +174,7 @@
 - ✅ 不使用广告 SDK 或自有分析系统
 - ✅ 通过 RevenueCat 校验订阅，符合 App Store 审核要求
 
-### OmniVoice 离线同传
+### OfflineTranslate
 - ✅ 语音识别、翻译、OCR 与语音克隆全部在设备端完成
 - ✅ 不收集任何个人数据：无账号、无服务器、无分析 SDK、无广告
 - ✅ 录音、克隆语音、翻译记录与图片仅保存在设备沙盒本地，不上传

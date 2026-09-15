@@ -30,9 +30,9 @@
 <div class="pp-doc">
 
 <header>
-  <div class="kicker">Manna Studio · Legal</div>
+  <div class="kicker">OfflineTranslate · Legal</div>
   <h1>Privacy Policy</h1>
-  <div class="sub">隱私政策 · 隐私政策</div>
+  <div class="sub">OfflineTranslate · 隱私政策 · 隐私政策</div>
   <div class="meta">Last Updated — September 13, 2026</div>
 </header>
 
@@ -41,19 +41,19 @@
 <section class="tri">
 <div class="lang en">
 
-> **‘We respect your privacy.’** — ‘OmniVoice 離線同傳 (the “App”) performs speech recognition, translation, voice cloning, and image-text translation directly on your device. We do not run a server, we do not have an account system, and **we do not collect, store, or share any of your personal information**.’
+> **‘We respect your privacy.’** — ‘OfflineTranslate (the “App”) performs speech recognition, translation, voice cloning, and image-text translation directly on your device. We do not run a server, we do not have an account system, and **we do not collect, store, or share any of your personal information**.’
 
 </div>
 <div class="lang tw">
 
 <span class="tag">繁體中文</span>
-**『我們尊重您的隱私。』** 『本應用程式（「OmniVoice 離線同傳」）直接在您的裝置上進行語音辨識、翻譯、語音合成與圖片文字翻譯。我們沒有架設伺服器，也沒有帳號系統，**我們不會收集、儲存或分享您的任何個人資料**。』
+**『我們尊重您的隱私。』** 『本應用程式（「OfflineTranslate」）直接在您的裝置上進行語音辨識、翻譯、語音合成與圖片文字翻譯。我們沒有架設伺服器，也沒有帳號系統，**我們不會收集、儲存或分享您的任何個人資料**。』
 
 </div>
 <div class="lang zh">
 
 <span class="tag">简体中文</span>
-**『我们尊重您的隐私。』** 『本应用程序（“OmniVoice 离线同传”）直接在您的设备上进行语音识别、翻译、语音合成与图片文字翻译。我们没有架设服务器，也没有账号系统，**我们不会收集、存储或分享您的任何个人信息**。』
+**『我们尊重您的隐私。』** 『本应用程序（“OfflineTranslate”）直接在您的设备上进行语音识别、翻译、语音合成与图片文字翻译。我们没有架设服务器，也没有账号系统，**我们不会收集、存储或分享您的任何个人信息**。』
 
 </div>
 </section>
