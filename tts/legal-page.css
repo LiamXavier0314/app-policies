@@ -85,6 +85,15 @@ h1 { margin: 0; font-size: clamp(2.1rem, 5vw, 4rem); font-weight: 760; letter-sp
 .load-error a { color: var(--accent-dark); }
 
 .footer { padding: 20px clamp(24px, 5vw, 72px); border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; }
+.support-page { max-width: 960px; }
+.support-document p { margin: 0 0 16px; }
+.support-document h3 { margin: 28px 0 10px; color: var(--accent-dark); font-size: 1.08rem; line-height: 1.4; }
+.support-document ul { padding-left: 1.3rem; }
+.support-document li { margin-bottom: 10px; }
+.support-contact { margin-top: 32px; padding: 20px 22px; border: 1px solid #e5baa9; border-radius: 4px; background: #fff8f4; }
+.support-document .support-contact h2 { margin-top: 0; }
+.support-contact p:last-child { margin-bottom: 0; }
+.support-contact a { overflow-wrap: anywhere; }
 [data-view-language="en"] .lang:not(.en), [data-view-language="tw"] .lang:not(.tw), [data-view-language="zh"] .lang:not(.zh) { display: none; }
 [data-view-language="en"] .tri, [data-view-language="tw"] .tri, [data-view-language="zh"] .tri { grid-template-columns: minmax(0, 820px); }
 

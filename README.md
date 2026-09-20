@@ -33,21 +33,29 @@
 │   ├── privacy-policy-zh.html         # 隐私政策（中文）
 │   ├── terms-of-service.html          # 服务条款（英文）
 │   └── terms-of-service-zh.html       # 服务条款（中文）
-└── mindvault/                          # NoteLM 应用文档
+├── mindvault/                          # NoteLM 应用文档
+│   ├── support.html                   # 技术支持（英文）
+│   ├── support-zh.html                # 技术支持（中文）
+│   ├── privacy-policy.html            # 隐私政策（英文）
+│   ├── privacy-policy-zh.html         # 隐私政策（中文）
+│   ├── terms-of-service.html          # 服务条款（英文）
+│   └── terms-of-service-zh.html       # 服务条款（中文）
+├── petchat/                            # Petchat 应用文档
+│   ├── support.html                   # 技术支持（英文）
+│   ├── support-zh.html                # 技术支持（中文）
+│   ├── privacy-policy.html            # 隐私政策（英文）
+│   ├── privacy-policy-zh.html         # 隐私政策（中文）
+│   ├── terms-of-service.html          # 服务条款（英文）
+│   └── terms-of-service-zh.html       # 服务条款（中文）
+└── tts/                               # OfflineTranslate 应用文档
     ├── support.html                   # 技术支持（英文）
     ├── support-zh.html                # 技术支持（中文）
-    ├── privacy-policy.html            # 隐私政策（英文）
-    ├── privacy-policy-zh.html         # 隐私政策（中文）
-    ├── terms-of-service.html          # 服务条款（英文）
-    └── terms-of-service-zh.html       # 服务条款（中文）
-└── petchat/                            # Petchat 应用文档
-    ├── privacy-policy.html            # 隐私政策（英文）
-    ├── privacy-policy-zh.html         # 隐私政策（中文）
-    ├── terms-of-service.html          # 服务条款（英文）
-    └── terms-of-service-zh.html       # 服务条款（中文）
-└── tts/                               # OfflineTranslate 应用文档
-    ├── PRIVACY_POLICY.md             # 隐私政策（中英双语 · scriptio continua 排版）
-    └── TERMS_OF_SERVICE.md           # 服务条款（中英双语 · scriptio continua 排版）
+    ├── PRIVACY_POLICY.html            # 隐私政策网页（?lang=en / zh / tw）
+    ├── TERMS_OF_SERVICE.html          # 服务条款网页（?lang=en / zh / tw）
+    ├── PRIVACY_POLICY.md              # 隐私政策内容（英 / 简中 / 繁中）
+    ├── TERMS_OF_SERVICE.md            # 服务条款内容（英 / 简中 / 繁中）
+    ├── legal-page.css                 # 法律与支持页面样式
+    └── legal-page.js                  # 法律文件加载与语言切换
 ```
 
 ## 应用信息
@@ -106,6 +114,8 @@
   - 本地通知提醒
 - **内购**: 通过 RevenueCat 与 App Store 管理高级权益
 - **隐私**: 对话记录与宠物数据保存在设备本地，设备端 AI 处理，使用 App Group 供小组件共享数据
+- **支持页**: [English](petchat/support.html) / [中文](petchat/support-zh.html)
+- **支持邮箱**: onebestai@gmail.com
 
 ### NoteLM - 本地优先 AI 知识库
 - **定位**: 本地优先 AI 笔记与知识库应用
@@ -134,6 +144,8 @@
   - 完全离线运行，模型只需准备一次
 - **模型**: SenseVoice（识别）、Hy-MT2（翻译）、HunyuanOCR（图片 OCR）、OmniVoice（语音克隆/合成），均为开源并只在设备端运行
 - **内购**: 无（无账号、无订阅、无内购）
+- **支持页**: [English](tts/support.html) / [中文](tts/support-zh.html)
+- **支持邮箱**: onebestai@gmail.com
 - **隐私**: 所有数据处理均在设备本地完成，无账号系统、无服务器、无分析 SDK；麦克风/相机/相册权限仅用于相应功能且不上传
 
 ## 隐私承诺
