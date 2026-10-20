@@ -7,6 +7,15 @@
 ```
 .
 ├── index.html                          # 主页
+├── music/                              # Music 本地音乐应用文档
+│   ├── support.html                   # 技术支持（英文）
+│   ├── support-zh.html                # 技术支持（中文）
+│   ├── privacy-policy.html            # 隐私政策（英文）
+│   ├── privacy-policy-zh.html         # 隐私政策（中文）
+│   ├── terms-of-service.html          # 服务条款（英文）
+│   ├── terms-of-service-zh.html       # 服务条款（中文）
+│   ├── style.css                      # 共享响应式样式
+│   └── README.md                      # 内容依据与维护说明
 ├── clearbrief/                         # ClearBrief Coach 应用文档
 │   ├── support.html                   # 技术支持（英文）
 │   ├── support-zh.html                # 技术支持（中文）
@@ -59,6 +68,15 @@
 ```
 
 ## 应用信息
+
+### Music · 本地音乐
+- **定位**：本地音频/视频播放、曲库与歌词管理、备份与设备间传输。
+- **页面**：[技术支持](music/support-zh.html) / [隐私政策](music/privacy-policy-zh.html) / [服务条款](music/terms-of-service-zh.html)；均提供英文版本。
+- **数据边界**：核心曲库留在本机，无账号、广告或自动分析上传；主动传歌/共听会向对方发送媒体和连接信息，WebDAV 测试直接连接用户指定的服务。
+- **传输安全**：局域网 HTTP 未提供 TLS/端到端加密；外部源凭据存本机数据库，未宣称专用加密保管。
+- **能力边界**：SMB 目前仅保存配置；远端曲库播放、公网中继、所有平台的自动热点并未宣称可用。
+- **支持邮箱**：onebestai@gmail.com
+- **内容依据**：[music/README.md](music/README.md)
 
 ### ClearBrief Coach - 沟通训练教练
 - **定位**: Android / iOS 沟通训练应用
