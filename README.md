@@ -7,7 +7,7 @@
 ```
 .
 ├── index.html                          # 主页
-├── music/                              # Music 本地音乐应用文档
+├── music/                              # Groove Player 本地音乐应用文档
 │   ├── support.html                   # 技术支持（英文）
 │   ├── support-zh.html                # 技术支持（中文）
 │   ├── privacy-policy.html            # 隐私政策（英文）
@@ -69,7 +69,7 @@
 
 ## 应用信息
 
-### Music · 本地音乐
+### Groove Player · 本地音乐
 - **定位**：本地音频/视频播放、曲库与歌词管理、备份与设备间传输。
 - **页面**：[技术支持](music/support-zh.html) / [隐私政策](music/privacy-policy-zh.html) / [服务条款](music/terms-of-service-zh.html)；均提供英文版本。
 - **数据边界**：核心曲库留在本机，无账号、广告或自动分析上传；主动传歌/共听会向对方发送媒体和连接信息，WebDAV 测试直接连接用户指定的服务。

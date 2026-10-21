@@ -1,6 +1,6 @@
-# Music 法律与支持页面
+# Groove Player 法律与支持页面
 
-内容核对日期：2026-10-20。产品显示名依据当前 iOS `CFBundleDisplayName=Music`，中文补充说明为“本地音乐”。维护团队沿用本站品牌 Manna Studio，联系邮箱沿用 `onebestai@gmail.com`。
+内容核对日期：2026-10-20。本站按产品命名使用 Groove Player 作为显示名，中文补充说明为“本地音乐”；客户端显示名配置需在源项目中同步核对。维护团队沿用本站品牌 Manna Studio，联系邮箱沿用 `onebestai@gmail.com`。
 
 | 页面 | English | 简体中文 |
 | --- | --- | --- |
