@@ -7,6 +7,15 @@
 ```
 .
 ├── index.html                          # 主页
+├── findeveything/                      # Find Everything 本地智能搜索（保留指定目录拼写）
+│   ├── index.html                     # 中英文法律页面入口
+│   ├── privacy-policy.html            # 隐私政策（英文）
+│   ├── privacy-policy-zh.html         # 隐私政策（中文）
+│   ├── terms-of-service.html          # 服务条款（英文）
+│   ├── terms-of-service-zh.html       # 服务条款（中文）
+│   ├── legal.css                      # 响应式法律页面样式
+│   ├── sources/                       # 四份 Markdown 内容源
+│   └── README.md                      # 内容依据与维护说明
 ├── music/                              # Groove Player 本地音乐应用文档
 │   ├── support.html                   # 技术支持（英文）
 │   ├── support-zh.html                # 技术支持（中文）
@@ -68,6 +77,14 @@
 ```
 
 ## 应用信息
+
+### Find Everything · 本地智能搜索
+- **页面**：[隐私政策](findeveything/privacy-policy-zh.html) / [服务条款](findeveything/terms-of-service-zh.html)，另有英文版本及[目录](findeveything/index.html)。
+- **收费**：主动领取后完整试用 7 天，之后一次买断，美国区目标 US$4.99；无订阅、不自动扣款，其他地区以商店报价为准。
+- **支付边界**：Apple App 内购买及受支持版本中的 Google Play 结算；未承诺所有 Android 构建均支持购买。Apple 软件许可使用标准 EULA，本条款不作为自定义替代。
+- **隐私边界**：核心内容与索引在本机处理；购买验证、模型下载、网页读取、系统服务及主动分享另行说明，未声称一切功能不联网或 SQLite 另有应用层加密。
+- **主体与联系**：深圳至鼎国际贸易有限公司，onebestai@gmail.com。
+- **维护说明**：[findeveything/README.md](findeveything/README.md)。
 
 ### Groove Player · 本地音乐
 - **定位**：本地音频/视频播放、曲库与歌词管理、备份与设备间传输。
